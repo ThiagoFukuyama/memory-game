@@ -86,8 +86,8 @@ button {
 .tile.flipped {
     rotate: y 180deg;
     box-shadow: 
-        -10px 10px 10px rgba(0, 0, 0, 0.3),
-        -3px 3px 4px rgba(0, 0, 0, 0.3) inset;
+        -10px 10px 10px rgba(0, 0, 0, 0.2),
+        -3px 3px 4px rgba(0, 0, 0, 0.2) inset;
 }
 
 .tile::after {
@@ -98,8 +98,8 @@ button {
     backface-visibility: hidden;
     border-radius: 10px;
     box-shadow: 
-        10px 10px 10px rgba(0, 0, 0, 0.3),
-        3px 3px 4px rgba(0, 0, 0, 0.3) inset;
+        10px 10px 10px rgba(0, 0, 0, 0.2),
+        3px 3px 4px rgba(0, 0, 0, 0.2) inset;
     transition: 500ms ease-in-out;
     animation: slide-right 1.5s forwards;
 }
